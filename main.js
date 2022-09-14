@@ -3,6 +3,7 @@ let myTotal = myNumber * myOtherNumber;
 
 let myName = "";
 let myCombo = "" + myNumber + myOtherNumber;
+let myOtherCombo = myNumber + myOtherNumber;
 let myRemainder = myNumber % 5;
 let i = 2;
 let int = 4;
