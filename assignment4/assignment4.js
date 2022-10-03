@@ -50,8 +50,8 @@ function averageAge(num1, num2, num3) {
 // Example: leet is returned as l33t. speak is returned as sp34k.
 
 function leetSpeak(word) {
-	word = word.replace(/a/g, "4");
-	word = word.replace(/e/g, "3");
+	word = word.replace(/a/g, "4"); // replaces all instances of 'a' with '4', uses global flag, found on W3Schools
+	word = word.replace(/e/g, "3"); //    ~      ~      ~    ~   'e'  ~   '3'   ~     ~      ~     ~    ~     ~
 	return word;
 }
 
